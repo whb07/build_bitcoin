@@ -1,4 +1,3 @@
-cmake_minimum_required(VERSION 3.0)
 
 include_directories(ctaes)
 add_library(Crypto aes.cpp aes.h chacha20.cpp chacha20.h chacha_poly_aead.cpp chacha_poly_aead.h common.h
